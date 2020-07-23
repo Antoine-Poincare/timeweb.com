@@ -34,4 +34,4 @@ def get_task_status(tid: str) -> str:
     return jsonify(job.meta)
 
 
-app.run()
+app.run(host='0.0.0.0')
